@@ -56,7 +56,3 @@ docker run -p 8080:8080 legacy-po-service:latest
 
 ## Postman collection
 See `spring-legacy-modernizer.postman_collection.json` for example requests (POST /api/orders and GET /api/orders/:id).
-
-## Notes
-- Do **not** include AXA/AMFS/AXA Mandiri words in the public repo name (assessment requirement).
-- For production, move secrets out of `appsettings.json` into AWS Secrets Manager / SSM Parameter Store and use IAM roles.
