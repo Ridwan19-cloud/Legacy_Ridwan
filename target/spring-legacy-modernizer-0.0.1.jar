@@ -1,0 +1,6 @@
+PK
+
+THIS IS A PLACEHOLDER JAR
+
+This environment could not run Maven/Java to compile the real jar.
+Run `mvn clean package` locally (Java 17) to produce the real jar.
